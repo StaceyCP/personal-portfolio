@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    align-items: center;
+    background-color: rgba(23, 90, 65, 0.8);
+    color: white;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.navigation__link {
+    color: white;
+    margin: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation__link:visited {
+    color: white;
+}
+
+.navigation__link:hover {
+    transform: scale(1.1);
+}
