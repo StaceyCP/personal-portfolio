@@ -4,6 +4,8 @@ body {
     padding: 0px;
 }
 
+/* Navigation */
+
 .navigation {
     align-items: center;
     background-color: rgba(23, 90, 65, 0.8);
@@ -27,4 +29,34 @@ body {
 
 .navigation__link:hover {
     transform: scale(1.1);
+}
+
+/* Stacey */
+
+.stacey__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.stacey__content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.stacey__content--image {
+    margin: 50px;
+}
+
+.stacey__scroll {
+    animation: bounce 3s ease infinite;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-15px);}
+    60% {transform: translateY(-10px);}
 }
