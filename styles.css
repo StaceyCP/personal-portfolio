@@ -60,3 +60,26 @@ body {
     40% {transform: translateY(-15px);}
     60% {transform: translateY(-10px);}
 }
+
+footer {
+    align-items: center;
+    background-color: rgb(23, 90, 65);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.socials {
+    align-items: center;
+    display: flex;
+    margin-top: -10px;
+}
+
+.socials img {
+    height: 30px;
+    margin: 10px;
+    width: 30px;
+}
