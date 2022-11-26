@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "monterey-bird";
+    src: url(fonts/monterey-bird/Monterey\ Bird\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+    font-family: "bellamy";
+    src: url(fonts/free-bellany-modern-script-font-AV-Type-170420/Bellany.otf);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     margin: 0px;
@@ -8,16 +18,26 @@ body {
 
 .navigation {
     align-items: center;
-    background-color: rgba(23, 90, 65, 0.8);
+    background-color: rgba(23, 90, 65, 0.6);
     color: white;
     display: flex;
     height: 40px;
     justify-content: center;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navigation p {
+    font-family: "monterey-bird";
+    font-size: 35px;
+    letter-spacing: 1px;
 }
 
 .navigation__link {
     color: white;
-    margin: 15px;
+    margin: 30px;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
@@ -34,8 +54,15 @@ body {
 /* Stacey */
 
 .stacey__container {
+    color: white;
     display: flex;
     flex-direction: column;
+    background-color: seagreen;
+    background-image: url(img/mike-van-den-bos-TCh1_-nl0jI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
 }
 
 .stacey__content {
@@ -45,14 +72,30 @@ body {
     margin: 20px auto;
 }
 
+.stacey__content--text h1 {
+    font-family: "bellamy";
+    font-size: 60px;
+    font-style: italic;
+}
+
+.stacey__content--text p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
 .stacey__content--image {
+    border: 10px solid white;
+    border-radius: 50%;
+    height: 30%;
     margin: 50px;
+    width: 30%;
 }
 
 .stacey__scroll {
     animation: bounce 3s ease infinite;
     cursor: pointer;
     margin: 20px auto;
+    height: 30px;
 }
 
 @keyframes bounce {
@@ -60,6 +103,22 @@ body {
     40% {transform: translateY(-15px);}
     60% {transform: translateY(-10px);}
 }
+
+
+/* Contact Form */
+
+.contact-me {
+    padding: 20px;
+    margin: 10px;
+}
+
+.contact-me form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
 
 footer {
     align-items: center;

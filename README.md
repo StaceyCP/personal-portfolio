@@ -3,3 +3,6 @@ GitHub icon:
 
 LinkedIn icon:
 <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+
+Smiling emoji:
+<a href="https://www.flaticon.com/free-icons/smile" title="smile icons">Smile icons created by justicon - Flaticon</a>
